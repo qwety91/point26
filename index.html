@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>AniStories</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body id="top">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="navbar-header">
+								<a class="navbar-brand" href="index.html">
+									<img class="img-responsive img-logo" src="img/logo.png" title="AniStories"></img>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div id="navbar" class="navbar-collapse navbar-right collapse">
+								<ul class="nav navbar-nav">
+									<li><a href="#top">Home</a></li>
+									<li><a href="#best_sec">Best Stories</a></li>
+									<li><a href="#">New Stories</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active item1">
+					<div class="carousel-caption">
+						<h1>Lorem Ipsum dolor</h1>
+						<h3><span>Writter : </span> Arif Setiawan</h3>
+						<label class="line"></label>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="btn btn-default">READ MORE</a>
+					</div>
+				</div>
+				<div class="item item2">
+					<div class="carousel-caption">
+						<h1>Lorem Ipsum dolor</h1>
+						<h3><span>Writter : </span> Arif Setiawan</h3>
+						<label class="line"></label>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="btn btn-default">READ MORE</a>
+					</div>
+				</div>
+				<div class="item item3">
+					<div class="carousel-caption">
+						<h1>Lorem Ipsum dolor</h1>
+						<h3><span>By : </span> Arif Setiawan</h3>
+						<label class="line"></label>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						<a href="#" class="btn btn-default">READ MORE</a>
+					</div>
+				</div>
+			</div>
+	<!-- //HEADER AND SLIDESHOW -->
+
+	<!-- BEST STORIES -->
+	<div id="best_sec" class="section">
+		<div class="container">
+		<div class="rows">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+			<div class="title-sec">
+				<h1>Best Stories</h1>
+				<label class="line2"></label>
+			</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+			<ul class="filter text-uppercase text-center">
+				<li class="active" data-filter="*">All</li>
+				<li data-filter=".fable">Fable</li>
+				<li data-filter=".legendary">Legendary</li>
+				<li data-filter=".fairytale">Fairytale</li>
+			</ul>
+			<div class="best-lists">
+				<div class="best-story fable">
+					<a href="#">
+					<img class="img-responsive" src="img/1.jpg">
+					</a>
+				</div>
+				<div class="best-story legendary">
+					<a href="#">
+					<img class="img-responsive" src="img/2.jpg">
+					</a>
+				</div>
+				<div class="best-story fairytale">
+					<a href="#">
+					<img class="img-responsive" src="img/3.jpg">
+					</a>
+				</div>
+			</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+
+
+	<a id="aTop" href="#" class="btn btn-primary" role="button">
+		<span class="glyphicon glyphicon-chevron-up"></span>
+	</a>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script type="text/javascript">
+
+		// Navigation Change Color
+		$(window).scroll(function() {
+			if ($(document).scrollTop() > 80) {
+				$('nav').addClass('nav-shrink');
+			} else {
+				$('nav').removeClass('nav-shrink');
+			}
+		});
+
+		//Go to Top
+		$(document).ready(function(){
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 80) {
+					$('#aTop').fadeIn();
+				} else {
+					$('#aTop').fadeOut();
+				}
+			});
+			$('#aTop').click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 1000);
+				return false;
+			});
+		});
+	
+		//Smooth Scrolling
+		$('a[href*="#"]:not([href="#"])').click(function() {
+			if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				if (target.length) {
+					$('html, body').animate({
+						scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+			}
+		});
+
+		// Isotope
+		$(window).on('load', function(){ 
+			
+				var $container = $('.best-lists'); 
+				$container.isotope({ 
+						filter: '*', 
+						animationOptions: { 
+								duration: 750, 
+								easing: 'linear', 
+								queue: false, 
+						} 
+				}); 
+			
+				$('ul.filter li').click(function(){ 
+						var selector = $(this).attr('data-filter'); 
+						$container.isotope({ 
+								filter: selector, 
+								animationOptions: { 
+										duration: 750, 
+										easing: 'linear', 
+										queue: false, 
+								} 
+						}); 
+					return false; 
+				}); 
+			
+			var $optionSets = $('ul.filter'), 
+					 $optionLinks = $optionSets.find('li'); 
+			 
+					 $optionLinks.click(function(){ 
+							var $this = $(this);	
+					if ( $this.hasClass('active') ) { 
+							return false; 
+					} 
+				 var $optionSet = $this.parents('ul.filter'); 
+				 $optionSet.find('.active').removeClass('active'); 
+				 $this.addClass('active');	
+			});
+
+		});
+	</script>
+
+	</body>
+</html>
